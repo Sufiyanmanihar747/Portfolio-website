@@ -1,0 +1,108 @@
+@media screen and (max-width:1228px) {
+    .info-container .box {
+        margin-bottom: 27px;
+    }
+
+    .edu-box {
+        width: 80vw;
+    }
+
+    .educations {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1104px) {
+    ul {
+        gap: 4vw;
+    }
+}
+
+@media screen and (max-width:813px) {
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .content a {
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:838px) {
+    ul {
+        gap: 1vw;
+    }
+}
+
+@media screen and (max-width:731px) {
+    .contact {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:681px) {
+    ul {
+        gap: 0vw;
+    }
+}
+
+@media screen and (max-width:610px) {
+
+    .intro {
+        flex-direction: column-reverse;
+    }
+
+    .text {
+        margin-top: 30px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .mobile-navbar-btn {
+        position: absolute;
+        left: 0;
+        margin: 0px 25px;
+        display: flex;
+        justify-content: space-between;
+        gap: 72vw;
+        align-items: center;
+    }
+
+    .theme-icon {
+        display: none;
+    }
+
+    ul {
+        background-color: #ecf0f3;
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        top: -65px;
+        left: 0;
+        flex-direction: column;
+        gap: 54px;
+        transform: translateX(-100%);
+        transition: all .5s linear;
+    }
+
+    .active {
+        transform: translateX(0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+}
+
+@media screen and (max-width:408px) {
+    .second-image {
+        height: 371px;
+    }
+
+    .text h1 {
+        text-align: center;
+    }
+}
